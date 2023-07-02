@@ -20,12 +20,13 @@ Run the Pytest command:
 `pytest`
 Pytest will automatically discover the tests located in the project directory and its subdirectories and execute them.
 
-# To create a SQLite database in macOS, you can follow these steps:
+# To create a SQLite database, you can follow these steps:
 
 Open a terminal window. You can find the Terminal application in the Utilities folder within the Applications folder.
-
-Navigate to the directory where you want to create the SQLite database file. For example, if you want to create the database file in your home directory, use the following command:
+Navigate to the directory where you want to create the SQLite database file. For example, if you want to create the database 
+file in your home directory, use the following command:
 `cd ~`
+
 Launch the SQLite shell by running the following command:
 `sqlite3 database.db`
 
