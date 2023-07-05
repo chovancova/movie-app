@@ -24,17 +24,17 @@ Pytest will automatically discover the tests located in the project directory an
 
 # To create a SQLite database, you can follow these steps:
 
-Open a terminal window. You can find the Terminal application in the Utilities folder within the Applications folder.
-Navigate to the directory where you want to create the SQLite database file. For example, if you want to create the database 
-file in your home directory, use the following command:
+To create a SQLite database, you can follow these steps:
 
-`cd ~`
+1. Open a terminal window. You can find the Terminal application in the Utilities folder within the Applications folder.
+2. Navigate to the directory where you want to create the SQLite database file. For example, if you want to create the database file in your home directory, use the following command:
 
-Launch the SQLite shell by running the following command:
+    `cd ~`
 
-`sqlite3 database.db`
+3. Launch the SQLite shell by running the following command:
+
+    `sqlite3 database.db`
 
 Replace database.db with the name you want to give to your SQLite database file. This command will create a new SQLite database file with the specified name in the current directory.
 
-Once you run the command, you will enter the SQLite shell prompt, indicated by 
-`sqlite>`. 
+Once you run the command, you will enter the SQLite shell prompt, indicated by `sqlite>`.
